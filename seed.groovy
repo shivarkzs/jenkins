@@ -1,9 +1,9 @@
- folder('CI-pipline') {
-    displayName('CI pipeline')
-    description('CI pipline')
+ folder('CI-pipelines') {
+    displayName('CI pipelines')
+    description('CI pipelines')
 }
 
-  pipelineJob('CI-pipeline/frontend-ci') {
+  pipelineJob('CI-pipelines/frontend-ci') {
     configure { flowdefinition ->
       flowdefinition << delegate.'definition'(class:'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition',plugin:'workflow-cps') {
         'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git') {
