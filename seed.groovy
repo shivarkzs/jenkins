@@ -13,7 +13,7 @@
             }
           }
         }
-        'scriptPath'('jenkinsfile')
+        'scriptPath'('Jenkinsfile')
         'lightweight'(true)
       }
     }
