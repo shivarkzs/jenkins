@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    steges {
+      stage ('hello') {
+        steps {
+          echo "hello"
+        }
+      }
+    }
+}
