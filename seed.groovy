@@ -18,7 +18,7 @@
             }
           }
         }
-        'scriptPath'('Jenkinsfile')
+        'scriptPath'('jenkinsfile')
         'lightweight'(true)
       }
     }
