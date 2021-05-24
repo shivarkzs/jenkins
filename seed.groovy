@@ -1,4 +1,4 @@
- { flowfolder('CI-pipelines') {
+    flowfolder('CI-pipelines') {
     displayName('CI pipelines')
     description('CI pipelines')
 }
