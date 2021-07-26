@@ -1,7 +1,7 @@
 def call(Map params = [:]) {
   
   def args = [
-          NEXUS_IP               : '172.31.2.189',
+          NEXUS_IP               : '172.31.10.228',
   ]
   args << params
 
